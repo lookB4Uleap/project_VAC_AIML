@@ -28,9 +28,10 @@ const CaptionDisplay = () => {
         // console.log(file)
         axios.post(API_URL, payload, {
             headers: {
+                'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ya29.c.b0AXv0zTOZpDt_i50FKfaQtPY9-iR17iflO0kDGUWhk_Utn1fUzTv36PLGqYY6nRIC2VA2PA3vW1QYt39xCP0DQQs5uI2FGbQsYE0_oX9fvZuKQu6Y1cPfxE6tyIukzNNK8MnxbN8p5ERitnKqa66vFt9RVOHIKfMpPAYyy8JVKpetiY_JFbEyIgW4IH5INxgYlpQRjVHF20PiMhFpkHQY879s1x0WOi1xGoMepjhR',
-                'Access-Control-Allow-Origin': '*'
+                'Authorization': `Bearer ${process.env.TOKEN}`,
+                
             }
         })
             .then(res => {
