@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project_VAC_AIML/static/css/main.0dc83f05.css",
+    "main.js": "/project_VAC_AIML/static/js/main.a1bd56cb.js",
+    "static/js/787.8494e47a.chunk.js": "/project_VAC_AIML/static/js/787.8494e47a.chunk.js",
+    "index.html": "/project_VAC_AIML/index.html",
+    "main.0dc83f05.css.map": "/project_VAC_AIML/static/css/main.0dc83f05.css.map",
+    "main.a1bd56cb.js.map": "/project_VAC_AIML/static/js/main.a1bd56cb.js.map",
+    "787.8494e47a.chunk.js.map": "/project_VAC_AIML/static/js/787.8494e47a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc83f05.css",
+    "static/js/main.a1bd56cb.js"
+  ]
+}
